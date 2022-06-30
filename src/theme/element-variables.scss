@@ -1,0 +1,96 @@
+$--color-primary: #0025FF;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+@import "./colors.scss";
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $--text-primary;
+}
+
+.bg-dark-second {
+  background-color: $--bg-dark-second;
+}
+
+.primary-a {
+  color: $--text-primary;
+  &:hover {
+    background-color: $--color-primary !important;
+    color: #FFF !important;
+  }
+}
+
+.white {
+  color: #FFF;
+}
+
+.primary {
+  color: $--color-primary !important;
+}
+
+.border-primary {
+  border: 1px solid $--color-primary !important;
+}
+
+.bottom-line {
+  border-bottom: 3px solid $--color-primary;
+}
+
+.adorn {
+  color: $--color-adorn;
+}
+
+.bg-adorn {
+  background-color: $--color-adorn !important;
+  color: #FFF !important;
+}
+
+.hover-primary:hover {
+  color: $--color-primary;
+}
+
+.bg-primary,.drawer {
+  background-color: $--color-primary !important;
+  color: #FFF !important;
+}
+
+.bg-grad {
+  background-image: linear-gradient(175deg, $--color-primary 8%, #B76BF0 81%);
+}
+
+.bg-success {
+  background-color: $--bg-success;
+}
+
+.bg-dark {
+  background-color: $--bg-dark;
+}
+
+.text-primary {
+  color: $--text-primary;
+}
+
+.text-title {
+  font-size: 1.3em;
+  font-weight:bold;
+  line-height: 2em;
+  color: $--text-primary;
+}
+
+.text-second {
+  color: $--text-second;
+  font-size: .8em;
+}
+
+.text-lable {
+  color: $--text-second;
+  padding: 3px 10px;
+  border: 1px solid $--text-second;
+  border-radius: 2em;
+  font-size: .8em;
+}
