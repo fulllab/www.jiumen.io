@@ -5,7 +5,7 @@
                 <div class="t1 title">
                     Strategy Canva In Web3
                 </div>
-                <a href="https://zerodao.net" target="_blank" class="demo">
+                <a href="https://alpha.jiumen.io/" target="_blank" class="demo">
                     <el-button round>Demo</el-button>
                 </a>
             </el-col>
